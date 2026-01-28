@@ -1,0 +1,16 @@
+# Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+
+# Authentication  
+python-jose[cryptography]==3.3.0
+bcrypt==4.0.1
+
+# Validation
+pydantic[email]==2.5.3
+email-validator==2.1.0
+
+# Database (optional - for future use)
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
